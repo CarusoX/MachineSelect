@@ -122,8 +122,11 @@ export default function Home() {
   );
 
   return (
-    <main className="mx-auto flex min-h-screen w-full max-w-6xl flex-col gap-20 px-4 pb-32 pt-10 sm:px-8 lg:px-0">
-      <section className="relative overflow-hidden rounded-[40px] border border-white/10 bg-gradient-to-br from-[#f1c40f]/90 via-[#f39c12]/80 to-[#34495e]/90 p-[1px]">
+    <main className="mx-auto flex min-h-screen w-full max-w-6xl flex-col gap-20 px-4 pb-32 sm:px-8 lg:px-0">
+      <section
+        id="inicio"
+        className="relative overflow-hidden rounded-[40px] border border-white/10 bg-gradient-to-br from-[#f1c40f]/90 via-[#f39c12]/80 to-[#34495e]/90 p-[1px]"
+      >
         <div className="relative h-full w-full rounded-[38px] bg-[#050a0e]/90 px-6 py-12 sm:px-12">
           <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,_rgba(241,196,15,0.35),_transparent_55%)]" />
           <motion.div
