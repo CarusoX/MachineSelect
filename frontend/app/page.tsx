@@ -3,11 +3,18 @@
 import { motion } from "framer-motion";
 import { useMemo, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const heroStats = [
   { label: "Años de trayectoria", value: "20+" },
   { label: "Autos entregados", value: "3.500" },
   { label: "Puntaje de satisfacción", value: "4.9/5" },
+];
+
+const heroHighlights = [
+  "Entrega lista en 48 horas",
+  "Peritaje técnico certificado",
+  "Gestor personal desde el día uno",
 ];
 
 const carInventory = [
@@ -130,16 +137,24 @@ export default function Home() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
-            className="flex flex-col gap-10 lg:flex-row lg:items-center"
+            className="flex flex-col gap-12 lg:flex-row lg:items-center"
           >
             <div className="flex-1 space-y-6">
               <span className="glass-chip">CONCESIONARIA MACHINE</span>
               <h1 className="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl lg:text-6xl">
-                El garaje boutique para los que aman manejar.
+                Elegí tu próximo auto con la curaduría Machine.
               </h1>
               <p className="text-pretty text-lg text-white/80 sm:max-w-xl">
-                Autos seleccionados uno a uno, procesos digitales y un equipo obsesionado con cada detalle. Comprá, vendé o permutá en una experiencia 100% Machine.
+                Inventario boutique, procesos ágiles y especialistas que te acompañan de la reserva a la entrega.
               </p>
+              <ul className="flex flex-wrap gap-3 text-sm text-white/70">
+                {heroHighlights.map((item) => (
+                  <li key={item} className="flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2">
+                    <span className="h-1.5 w-1.5 rounded-full bg-[#f1c40f]" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
               <div className="flex flex-wrap items-center gap-4">
                 <Link href="#inventario" className="glass-button">
                   Ver inventario
@@ -181,18 +196,25 @@ export default function Home() {
               </div>
             </div>
             <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
+              initial={{ opacity: 0, scale: 0.92 }}
               animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
-              className="section-card flex-1 space-y-6 p-8"
+              transition={{ duration: 0.7, delay: 0.1, ease: "easeOut" }}
+              className="flex-1 space-y-6"
             >
-              <h2 className="text-lg font-semibold text-white">Machine Experience</h2>
-              <p className="text-sm text-white/70">
-                Coordinamos la experiencia completa: detailing premium, gestoría express, entrega en el día y seguimiento post venta.
-              </p>
-              <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
+              <div className="relative overflow-hidden rounded-[32px] border border-white/10 bg-[#0a111b] p-4 shadow-[0_20px_60px_rgba(5,10,14,0.6)]">
+                <div className="absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-transparent" />
+                <Image
+                  src="/hero-machine.svg"
+                  alt="Ilustración de un auto deportivo Machine"
+                  width={640}
+                  height={480}
+                  priority
+                  className="relative z-10 h-auto w-full object-cover"
+                />
+              </div>
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
                 {heroStats.map((stat) => (
-                  <div key={stat.label} className="rounded-2xl bg-white/5 p-4 text-center shadow-inner shadow-black/30">
+                  <div key={stat.label} className="rounded-2xl border border-white/10 bg-white/5 p-4 text-center">
                     <p className="text-3xl font-semibold text-[#f1c40f]">{stat.value}</p>
                     <p className="text-xs uppercase tracking-[0.2em] text-white/60">{stat.label}</p>
                   </div>
