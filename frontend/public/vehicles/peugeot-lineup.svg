@@ -1,0 +1,38 @@
+<svg width="640" height="360" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Peugeot 3008 y 208 GT listos para entrega</title>
+  <defs>
+    <linearGradient id="peugeotBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#051c3b" />
+      <stop offset="100%" stop-color="#020910" />
+    </linearGradient>
+    <linearGradient id="peugeotCar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7fb4ff" />
+      <stop offset="100%" stop-color="#2356a4" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="28" fill="url(#peugeotBg)" />
+  <g opacity="0.45" fill="#0a274c">
+    <rect x="60" y="70" width="98" height="182" rx="18" />
+    <rect x="178" y="60" width="120" height="206" rx="22" />
+    <rect x="318" y="80" width="116" height="188" rx="20" />
+    <rect x="454" y="72" width="124" height="204" rx="24" />
+  </g>
+  <g transform="translate(78 184)">
+    <path d="M18 72c-5-22 16-48 40-58 58-24 172-22 236-18 38 2 70 18 92 48 12 18 22 32 24 46H18z" fill="#030910" opacity="0.65" />
+  </g>
+  <g transform="translate(110 146)">
+    <path d="M40 94c10-40 40-74 100-88 84-18 178-6 240 32 26 14 48 42 46 68H40z" fill="url(#peugeotCar)" />
+    <path d="M48 96h348c8 0 14 6 14 14v8c0 6-4 10-10 10H42c-6 0-10-4-10-10v-6c0-10 6-16 16-16z" fill="#051830" opacity="0.82" />
+    <g transform="translate(46 128)">
+      <circle cx="58" cy="0" r="38" fill="#020b15" />
+      <circle cx="58" cy="0" r="22" fill="#10335c" />
+      <circle cx="58" cy="0" r="12" fill="#7fb4ff" />
+    </g>
+    <g transform="translate(274 128)">
+      <circle cx="58" cy="0" r="38" fill="#020b15" />
+      <circle cx="58" cy="0" r="22" fill="#10335c" />
+      <circle cx="58" cy="0" r="12" fill="#7fb4ff" />
+    </g>
+    <path d="M98 48c6-12 32-22 70-26 74-6 162-2 224 20 14 6 30 18 34 32-14 2-50 4-74-8-32-16-88-22-126-14-30 6-76 8-128-4z" fill="rgba(3,9,16,0.6)" />
+  </g>
+</svg>

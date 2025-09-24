@@ -1,0 +1,38 @@
+<svg width="640" height="360" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Jeep Compass y Gladiator listos para la aventura</title>
+  <defs>
+    <linearGradient id="jeepBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#133016" />
+      <stop offset="100%" stop-color="#050f06" />
+    </linearGradient>
+    <linearGradient id="jeepCar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7ad27a" />
+      <stop offset="100%" stop-color="#2f6b2f" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="28" fill="url(#jeepBg)" />
+  <g opacity="0.45" fill="#0f2711">
+    <rect x="56" y="74" width="100" height="180" rx="18" />
+    <rect x="176" y="60" width="120" height="208" rx="22" />
+    <rect x="318" y="78" width="120" height="190" rx="20" />
+    <rect x="454" y="70" width="124" height="206" rx="24" />
+  </g>
+  <g transform="translate(74 188)">
+    <path d="M20 74c-5-22 16-48 40-58 58-24 174-22 236-18 38 2 70 18 92 48 12 18 22 32 24 46H20z" fill="#071108" opacity="0.65" />
+  </g>
+  <g transform="translate(108 148)">
+    <path d="M40 96c10-40 40-74 100-88 84-18 178-6 240 32 26 16 48 42 46 70H40z" fill="url(#jeepCar)" />
+    <path d="M48 98h350c8 0 14 6 14 14v8c0 6-4 10-10 10H42c-6 0-10-4-10-10v-6c0-10 6-16 16-16z" fill="#09170b" opacity="0.82" />
+    <g transform="translate(46 130)">
+      <circle cx="58" cy="0" r="38" fill="#050c06" />
+      <circle cx="58" cy="0" r="22" fill="#153b18" />
+      <circle cx="58" cy="0" r="12" fill="#7ad27a" />
+    </g>
+    <g transform="translate(272 130)">
+      <circle cx="58" cy="0" r="38" fill="#050c06" />
+      <circle cx="58" cy="0" r="22" fill="#153b18" />
+      <circle cx="58" cy="0" r="12" fill="#7ad27a" />
+    </g>
+    <path d="M98 48c6-12 32-22 70-26 74-6 162-2 222 20 14 6 30 18 34 32-14 2-50 4-74-8-32-16-86-22-124-14-30 6-76 8-128-4z" fill="rgba(7,17,8,0.6)" />
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+<svg width="160" height="80" viewBox="0 0 160 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Logo de Toyota simplificado</title>
+  <ellipse cx="80" cy="40" rx="68" ry="30" fill="none" stroke="#ffffff" stroke-width="6" />
+  <ellipse cx="80" cy="40" rx="34" ry="24" fill="none" stroke="#ffffff" stroke-width="6" />
+  <ellipse cx="80" cy="40" rx="60" ry="10" fill="none" stroke="#ffffff" stroke-width="6" />
+</svg>

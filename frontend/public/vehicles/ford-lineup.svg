@@ -1,0 +1,38 @@
+<svg width="640" height="360" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Ford Bronco y Mustang en exposición</title>
+  <defs>
+    <linearGradient id="fordBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a2a57" />
+      <stop offset="100%" stop-color="#041224" />
+    </linearGradient>
+    <linearGradient id="fordCar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4b8bd4" />
+      <stop offset="100%" stop-color="#1b4b8f" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="28" fill="url(#fordBg)" />
+  <g opacity="0.45" fill="#0f2744">
+    <rect x="64" y="72" width="96" height="180" rx="18" />
+    <rect x="180" y="60" width="116" height="200" rx="22" />
+    <rect x="320" y="78" width="110" height="188" rx="20" />
+    <rect x="452" y="66" width="120" height="210" rx="24" />
+  </g>
+  <g transform="translate(80 180)">
+    <path d="M18 74c-5-22 16-48 40-58 58-26 172-22 238-18 38 2 70 18 94 52 12 18 22 34 24 48H18z" fill="#020812" opacity="0.65" />
+  </g>
+  <g transform="translate(110 140)">
+    <path d="M40 98c10-42 42-78 100-92 86-18 180-6 246 34 26 16 50 44 48 74H40z" fill="url(#fordCar)" />
+    <path d="M50 100h356c8 0 14 6 14 14v8c0 6-4 10-10 10H44c-6 0-10-4-10-10v-6c0-10 6-16 16-16z" fill="#040b16" opacity="0.8" />
+    <g transform="translate(46 134)">
+      <circle cx="58" cy="0" r="38" fill="#03070d" />
+      <circle cx="58" cy="0" r="22" fill="#102540" />
+      <circle cx="58" cy="0" r="12" fill="#4b8bd4" />
+    </g>
+    <g transform="translate(270 134)">
+      <circle cx="58" cy="0" r="38" fill="#03070d" />
+      <circle cx="58" cy="0" r="22" fill="#102540" />
+      <circle cx="58" cy="0" r="12" fill="#4b8bd4" />
+    </g>
+    <path d="M96 48c6-14 32-26 72-30 74-6 160-2 222 22 14 6 32 18 36 36-14 2-52 4-76-10-32-18-86-24-124-16-28 6-74 10-130-2z" fill="rgba(2,8,18,0.6)" />
+  </g>
+</svg>

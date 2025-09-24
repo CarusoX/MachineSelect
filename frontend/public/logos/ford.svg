@@ -1,0 +1,7 @@
+<svg width="160" height="80" viewBox="0 0 160 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Logo de Ford simplificado</title>
+  <ellipse cx="80" cy="40" rx="74" ry="32" fill="#0c3c78" stroke="#ffffff" stroke-width="4" />
+  <text x="80" y="47" font-family="'Poppins', 'Segoe UI', sans-serif" font-weight="600" font-size="28" text-anchor="middle" fill="#ffffff">
+    Ford
+  </text>
+</svg>

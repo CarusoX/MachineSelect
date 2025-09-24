@@ -1,0 +1,55 @@
+<svg width="960" height="640" viewBox="0 0 960 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Showroom boutique Machine</title>
+  <desc id="desc">Ilustración de un showroom automotriz iluminado con un deportivo dorado</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b2735" />
+      <stop offset="55%" stop-color="#0d141d" />
+      <stop offset="100%" stop-color="#05080d" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="10%" r="65%">
+      <stop offset="0%" stop-color="rgba(241,196,15,0.45)" />
+      <stop offset="100%" stop-color="rgba(241,196,15,0)" />
+    </radialGradient>
+    <linearGradient id="car" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f7d774" />
+      <stop offset="45%" stop-color="#f1c40f" />
+      <stop offset="100%" stop-color="#b8870d" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="640" fill="url(#bg)" />
+  <rect width="960" height="640" fill="url(#glow)" />
+  <g opacity="0.35">
+    <rect x="80" y="140" width="160" height="280" rx="18" fill="#101a27" />
+    <rect x="280" y="110" width="200" height="320" rx="22" fill="#121f2e" />
+    <rect x="520" y="90" width="180" height="360" rx="26" fill="#132233" />
+    <rect x="740" y="130" width="140" height="300" rx="20" fill="#111c29" />
+  </g>
+  <g transform="translate(140 360)">
+    <path d="M40 88c-6-28 18-60 46-72 72-32 214-30 296-24 48 4 84 24 112 68 16 26 32 46 34 64H40z" fill="#0a1018" opacity="0.75" />
+  </g>
+  <g transform="translate(180 280)">
+    <path d="M60 120c12-52 52-96 124-112 104-24 216-8 296 40 32 20 64 54 60 96H60z" fill="url(#car)" />
+    <path d="M82 118c8-30 42-68 116-82 88-18 182-6 248 34 26 16 48 40 50 70H82z" fill="rgba(255,255,255,0.12)" />
+    <path d="M88 130h432c10 0 18 8 18 18v10c0 6-4 10-10 10H80c-6 0-10-4-10-10v-8c0-10 8-20 18-20z" fill="#0d141d" opacity="0.8" />
+    <g transform="translate(84 164)">
+      <circle cx="74" cy="0" r="48" fill="#090f16" />
+      <circle cx="74" cy="0" r="28" fill="#1f2b3b" />
+      <circle cx="74" cy="0" r="16" fill="#f1c40f" />
+    </g>
+    <g transform="translate(388 164)">
+      <circle cx="74" cy="0" r="48" fill="#090f16" />
+      <circle cx="74" cy="0" r="28" fill="#1f2b3b" />
+      <circle cx="74" cy="0" r="16" fill="#f1c40f" />
+    </g>
+    <path d="M136 58c8-18 40-34 88-38 92-8 204-2 284 28 18 8 40 26 44 48-16 4-64 6-92-12-40-24-108-32-156-22-36 8-92 12-168-4z" fill="rgba(5,8,13,0.6)" />
+  </g>
+  <g opacity="0.4" fill="#f1c40f">
+    <circle cx="120" cy="520" r="3" />
+    <circle cx="200" cy="540" r="2" />
+    <circle cx="320" cy="520" r="4" />
+    <circle cx="520" cy="560" r="3" />
+    <circle cx="680" cy="520" r="2" />
+    <circle cx="820" cy="540" r="4" />
+  </g>
+</svg>

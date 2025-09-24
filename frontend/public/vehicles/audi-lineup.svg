@@ -1,0 +1,38 @@
+<svg width="640" height="360" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Audi Q5 y A3 sportback exhibidos</title>
+  <defs>
+    <linearGradient id="audiBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2c2c2c" />
+      <stop offset="100%" stop-color="#111" />
+    </linearGradient>
+    <linearGradient id="audiCar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f5f5f5" />
+      <stop offset="100%" stop-color="#b5b5b5" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="28" fill="url(#audiBg)" />
+  <g opacity="0.45" fill="#1c1c1c">
+    <rect x="62" y="66" width="92" height="182" rx="18" />
+    <rect x="176" y="58" width="118" height="208" rx="22" />
+    <rect x="314" y="76" width="116" height="190" rx="20" />
+    <rect x="452" y="70" width="124" height="206" rx="24" />
+  </g>
+  <g transform="translate(76 186)">
+    <path d="M18 72c-5-22 16-48 38-58 56-24 168-22 230-18 36 2 68 18 90 48 12 18 22 32 24 46H18z" fill="#080808" opacity="0.6" />
+  </g>
+  <g transform="translate(108 146)">
+    <path d="M38 94c10-40 40-74 96-88 82-18 174-6 236 32 24 14 46 42 44 68H38z" fill="url(#audiCar)" />
+    <path d="M46 96h344c8 0 14 6 14 14v8c0 6-4 10-10 10H40c-6 0-10-4-10-10v-6c0-10 6-16 16-16z" fill="#161616" opacity="0.85" />
+    <g transform="translate(44 128)">
+      <circle cx="56" cy="0" r="36" fill="#080808" />
+      <circle cx="56" cy="0" r="20" fill="#202020" />
+      <circle cx="56" cy="0" r="12" fill="#d0d0d0" />
+    </g>
+    <g transform="translate(260 128)">
+      <circle cx="56" cy="0" r="36" fill="#080808" />
+      <circle cx="56" cy="0" r="20" fill="#202020" />
+      <circle cx="56" cy="0" r="12" fill="#d0d0d0" />
+    </g>
+    <path d="M90 46c6-12 30-22 68-26 70-6 154-2 212 20 12 6 28 18 32 32-12 2-48 4-70-8-30-16-82-22-118-14-28 6-72 8-124-4z" fill="rgba(8,8,8,0.6)" />
+  </g>
+</svg>

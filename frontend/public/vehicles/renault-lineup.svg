@@ -1,0 +1,38 @@
+<svg width="640" height="360" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Renault Alaskan y Stepway certificadas</title>
+  <defs>
+    <linearGradient id="renaultBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#403000" />
+      <stop offset="100%" stop-color="#1a1400" />
+    </linearGradient>
+    <linearGradient id="renaultCar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffe680" />
+      <stop offset="100%" stop-color="#d7a10a" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="28" fill="url(#renaultBg)" />
+  <g opacity="0.45" fill="#332400">
+    <rect x="58" y="70" width="96" height="182" rx="18" />
+    <rect x="174" y="62" width="118" height="202" rx="22" />
+    <rect x="312" y="80" width="114" height="190" rx="20" />
+    <rect x="450" y="70" width="122" height="206" rx="24" />
+  </g>
+  <g transform="translate(74 186)">
+    <path d="M20 72c-5-22 16-48 38-58 56-24 170-22 234-18 36 2 68 18 90 48 12 18 22 32 24 46H20z" fill="#120d00" opacity="0.6" />
+  </g>
+  <g transform="translate(108 146)">
+    <path d="M40 94c10-40 40-74 98-88 82-18 176-6 236 32 26 14 48 42 46 68H40z" fill="url(#renaultCar)" />
+    <path d="M48 96h344c8 0 14 6 14 14v8c0 6-4 10-10 10H42c-6 0-10-4-10-10v-6c0-10 6-16 16-16z" fill="#1f1500" opacity="0.82" />
+    <g transform="translate(46 128)">
+      <circle cx="56" cy="0" r="36" fill="#120d00" />
+      <circle cx="56" cy="0" r="20" fill="#423100" />
+      <circle cx="56" cy="0" r="12" fill="#ffe680" />
+    </g>
+    <g transform="translate(262 128)">
+      <circle cx="56" cy="0" r="36" fill="#120d00" />
+      <circle cx="56" cy="0" r="20" fill="#423100" />
+      <circle cx="56" cy="0" r="12" fill="#ffe680" />
+    </g>
+    <path d="M94 48c6-12 30-22 68-26 72-6 158-2 214 20 12 6 30 18 34 32-12 2-48 4-70-8-32-16-84-22-120-14-28 6-72 8-126-4z" fill="rgba(18,13,0,0.6)" />
+  </g>
+</svg>
